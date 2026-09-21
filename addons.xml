@@ -47,4 +47,20 @@
     <description lang="en_GB">Watch movies and TV shows from MovieBox.</description>
     <platform>all</platform>
   </extension>
+</addon><addon id="plugin.video.netflixmirror" name="NetflixMirror" version="1.0.0" provider-name="solo12345689">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.requests" version="2.22.0" />
+    <import addon="script.module.beautifulsoup4" version="4.9.3" />
+    <import addon="script.module.pycryptodome" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">NetflixMirror Addon</summary>
+    <assets><icon>icon.png</icon></assets>
+    <description lang="en_GB">Watch movies and TV shows from NetflixMirror.</description>
+    <platform>all</platform>
+  </extension>
 </addon></addons>
