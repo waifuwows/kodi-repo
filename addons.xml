@@ -32,7 +32,7 @@
     <description lang="en_GB">Watch anime from HiAnime.</description>
     <platform>all</platform>
   </extension>
-</addon><addon id="plugin.video.moviebox" name="MovieBox" version="1.0.1" provider-name="solo12345689">
+</addon><addon id="plugin.video.moviebox" name="MovieBox" version="1.0.0" provider-name="solo12345689">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.requests" version="2.22.0" />
